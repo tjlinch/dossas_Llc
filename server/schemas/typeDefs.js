@@ -26,6 +26,10 @@ type Query {
     posts: [Post]
     post(postId: ID!): Post
 }
+
+type Mutation {
+    addUser(username: String!, email: String!, password: String!): Auth
+}
 `;
 
 module.exports = typeDefs;
