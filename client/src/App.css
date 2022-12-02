@@ -3,8 +3,15 @@
 }
 
 .header {
-    background-color: aqua;
-    min-height: 5vh;
+    background: linear-gradient(aqua, blue, black);
+    min-height: 10vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
 }
 
 .headerLogo {
@@ -12,6 +19,24 @@
     width: 200px;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navItem {
+    display: inline;
+    margin: 10px;
+}
+
+.banner {
+    min-height: 150vh;
+    background-image: url('./assets/images/20220529_064956\ \(1\).jpg');
+    background-size: cover;
+
+}
+
 .footer {
+    background: linear-gradient(aqua, blue, black);
     min-height: 5vh;
 }
