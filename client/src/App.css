@@ -3,8 +3,8 @@
 }
 
 .header {
-    background: linear-gradient(aqua, blue, black);
-    min-height: 10vh;
+    background: linear-gradient(aqua, black);
+    height: 100px;
 }
 
 header {
@@ -20,13 +20,14 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
+    position: relative;
+    bottom: 48px;
+    left: 3%;
 }
 
-.navItem {
-    display: inline;
-    margin: 10px;
+#offCanvasImg {
+    height: 50px;
+    width: 50px;
 }
 
 .banner {
@@ -37,6 +38,6 @@ nav {
 }
 
 .footer {
-    background: linear-gradient(aqua, blue, black);
+    background: linear-gradient(aqua, black);
     min-height: 5vh;
 }
