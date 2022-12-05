@@ -17,6 +17,8 @@ header {
 .headerLogo {
     height: 50px;
     width: 200px;
+    position: relative;
+    z-index: 1;
 }
 
 nav {
@@ -40,4 +42,12 @@ nav {
 .footer {
     background: linear-gradient(aqua, black);
     min-height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.iconContainer {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
 }
