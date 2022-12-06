@@ -33,9 +33,11 @@ nav {
 }
 
 .banner {
-    min-height: 150vh;
-    background-image: url('./assets/images/20220529_064956\ \(1\).jpg');
+    min-height: 35vh;
+    background-image: url('./assets/images/DOSSAS Banner 2 12-5-22.png');
     background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
 
 }
 
@@ -44,10 +46,12 @@ nav {
     min-height: 5vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .iconContainer {
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 10px;
 }
