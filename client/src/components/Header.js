@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className='header'>
       <header>
-        <Link to='/'>
+        <Link to='/home'>
           <img src={dossasTypefaceLogo} alt='Dossas typeface logo' className='headerLogo'></img>
         </Link>
       </header>
@@ -25,11 +25,17 @@ const Header = () => {
           </div>
           <div className="offcanvas-body">
             <ul className='list-group'>
-              <Link to='/'>
+              <Link to='/home'>
                     <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>Home</li>
               </Link>
               <Link to='/about'>
-                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>About</li>
+                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>About Dossas</li>
+              </Link>
+              <Link to='/services'>
+                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>Services</li>
+              </Link>
+              <Link to='/contact'>
+                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>Contact info</li>
               </Link>
             </ul>
           </div>

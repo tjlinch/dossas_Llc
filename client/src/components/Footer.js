@@ -17,7 +17,7 @@ const Footer = () => {
           {/* <p>Spotify</p> */}
         </a>
       </div>
-      <p className='iconDisclaimer'>*Icons by<a target="_blank" rel="noreferrer" href="https://icons8.com"> Icons8</a></p>
+      {/* <p className='iconDisclaimer'>*Icons by<a target="_blank" rel="noreferrer" href="https://icons8.com"> Icons8</a></p> */}
     </div>
   )
 }
