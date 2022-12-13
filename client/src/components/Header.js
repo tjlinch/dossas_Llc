@@ -29,7 +29,7 @@ const Header = () => {
                     <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>Home</li>
               </Link>
               <Link to='/about'>
-                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>About Dossas</li>
+                    <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>About DOSSAS</li>
               </Link>
               <Link to='/services'>
                     <li className='list-group-item' data-bs-dismiss='offcanvas' aria-label='Close'>Services</li>

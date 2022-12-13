@@ -67,12 +67,28 @@ nav {
     margin: 10px;
 }
 
-#aboutHeader {
+.aboutHeader {
     font-size: 50px;
 }
 
 .aboutParagraph {
     padding: 15px;
+}
+
+#servicesPage {
+    border: 3px solid aqua;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#servicesHeader {
+    text-align: center;
+    font-size: 50px;
+}
+
+.serviceCard {
+    border-top: 2px solid gray;
+    padding: 10px;
 }
 
 .footer {
