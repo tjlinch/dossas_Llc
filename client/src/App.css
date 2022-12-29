@@ -91,6 +91,25 @@ nav {
     padding: 10px;
 }
 
+#contactPage {
+    text-align: center;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.checkboxInput {
+    margin-right: 10px;
+}
+
+.textInput {
+    margin-bottom: 20px;
+}
+
+#submitBtn {
+    margin-bottom: 10px;
+}
+
 .footer {
     background: linear-gradient(aqua, black);
     min-height: 5vh;
