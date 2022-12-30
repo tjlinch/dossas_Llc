@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import dossasTypefaceLogo from '../assets/images/TYPEFACE_WHITE.png';
+import dossasTypefaceLogo from '../assets/images/TYPEFACE_LOGO.png';
 import dossasLogo from '../assets/images/BLACK CONCEPT.png';
 
 

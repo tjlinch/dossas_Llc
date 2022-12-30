@@ -56,8 +56,9 @@ nav {
 }
 
 #cover_photo {
-    max-width: 50%;
+    max-width: 45%;
     max-height: auto;
+    margin: 20px;
 }
 
 #aboutPage {
@@ -67,12 +68,17 @@ nav {
     margin: 10px;
 }
 
-.aboutHeader {
+#studio {
+    width: 50%;
+    height: auto;
+}
+
+#aboutHeader {
     font-size: 50px;
 }
 
 .aboutParagraph {
-    padding: 15px;
+    padding: 20px;
 }
 
 #servicesPage {
@@ -88,7 +94,32 @@ nav {
 
 .serviceCard {
     border-top: 2px solid gray;
-    padding: 10px;
+    padding: 20px;
+}
+
+.servicesSideBySide {
+    display: flex;
+}
+
+#mixingParagraphs {
+    margin-right: 20px;
+}
+
+#gearPick {
+    width: 25%;
+    height: auto;
+}
+
+#synth {
+    width: 25%;
+    height: auto;
+}
+
+#composingSetup {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 #contactPage {
@@ -98,16 +129,21 @@ nav {
     margin: 10px;
 }
 
-.checkboxInput {
-    margin-right: 10px;
+#contactHeader {
+    font-size: 50px;
 }
 
+/* .checkboxInput {
+    margin-right: 10px;
+} */
+
 .textInput {
-    margin-bottom: 20px;
+    margin: 20px;
+    width: 75%;
 }
 
 #submitBtn {
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .footer {
